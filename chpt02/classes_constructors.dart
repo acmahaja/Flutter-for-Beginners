@@ -19,8 +19,8 @@ void main() {
   print(somePerson1.getFullName());
 
   Person somePerson2 = new Person();
-  somePerson1.firstName = "Hal";
-  somePerson1.lastName = "Jordan";
+  somePerson2.firstName = "Hal";
+  somePerson2.lastName = "Jordan";
   print(somePerson2.getFullName());
 
 }
