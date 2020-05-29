@@ -12,4 +12,9 @@ void main() {
   somePerson.firstName = "Clark";
   somePerson.lastName = "Ken";
   print(somePerson.getFullName()); // prints Clark Kent
+  
+  Person somePerson1 = new Person();
+  somePerson1.firstName = "Wayne";
+  somePerson1.lastName = "Bruce";
+  print(somePerson1.getFullName());
 }
