@@ -1,6 +1,9 @@
 import 'dart-class-constructors.dart';
 import 'enum.dart';
 
+//  factory constructors ar useful creation technique without specifiying
+//  the exact resultuing object type
+
 class Person {
   String firstName;
   String lastName;
